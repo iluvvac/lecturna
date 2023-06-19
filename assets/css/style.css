@@ -90,8 +90,6 @@ nav a:hover {
 }
 
 /* Start Of Section 1 */
-.first-section {
-}
 
 .main-content {
   display: flex;
@@ -101,6 +99,13 @@ nav a:hover {
 
 .main-content img {
   width: 540px;
+}
+
+.wrap-gif{
+  height: 450px;
+  margin-top: -100px;
+  /* background-color: #103ee0; */
+  z-index: -1;
 }
 
 .hero-text {
@@ -202,7 +207,6 @@ nav a:hover {
   gap: 200px;
   /* align-content: space-around; */
   justify-content: space-between;
-
 }
 
 .heading-section-2 h1 {
