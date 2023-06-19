@@ -1,74 +1,295 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
-:root {
-  --maincolor: #faf9f1;
-  --color1: #1a202c;
-  --color1a: #1a202c5f;
-  --color2: #edb230;
-}
-
 * {
   font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--maincolor);
-}
-
-.nav {
-  height: 100px;
-  width: 100vw;
-  background-color: black;
-  position: fixed;
-  top: 0;
-}
-
-.opening {
-  height: 100vh;
-}
-
-.opening_box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background-color: #faf8f4;
   display: flex;
+  justify-content: center;
 }
 
-.opening_inner_box {
-  width: 38vw;
-  min-height: 40vh;
+.main-container {
+  /* background-color: red; */
+  width: 1240px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 100px; */
 }
 
-.opening_title {
-  font-size: 60px;
-  color: var(--color1);
+nav {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.opening_desc {
+nav img {
+  width: 200.25px;
+  height: 56.4px;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 49px;
+}
+
+.nav-link a {
+  text-decoration: none;
+}
+
+.enroll-btn {
+  background-color: #1d3b98;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 9px 21px;
+  gap: 10px;
+  border-radius: 4px;
+  border-color: transparent;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.full-nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+}
+
+nav a {
+  color: 486284;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+nav a:hover {
+  color: #1a202c;
+}
+
+.enroll-btn:hover {
+  background: #edb230;
+  color: black;
+}
+
+/* Start Of Section 1 */
+.first-section {
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content img {
+  width: 540px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-heading h1 {
+  font-family: Fabada;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 1094px;
+}
+
+.star {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.star p {
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.star img {
+  width: 30px;
+}
+
+.subheading {
+  font-family: Plus Jakarta Sans;
   font-size: 16px;
   font-weight: 500;
-  color: var(--color1a);
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #1a202c;
+  width: 607px;
 }
 
-.opening_button {
-  border: 2px solid var(--color2);
-  border-radius: 5px;
-  padding: 15px 30px;
+.button-main {
+  display: flex;
+  gap: 20px;
+}
+
+.free-btn {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 8px;
+
+  border: 2px solid #103ee0;
+  border-radius: 4px;
+
+  font-family: Plus Jakarta Sans;
   font-size: 16px;
   font-weight: 600;
-  margin-top: 20px;
-  margin-right: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
 }
 
-.signupnow {
-  background-color: var(--color2);
-  color: var(--maincolor);
+.free-btn:hover {
+  background-color: #edb230;
+  border: 2px solid #edb230;
 }
 
-.trynow {
-  background-color: var(--maincolor);
-  color: var(--color2);
+/* Section 2 */
+
+.our-course {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-section-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  /* align-content: space-around; */
+  justify-content: space-between;
+
+}
+
+.heading-section-2 h1 {
+  font-family: Fabada;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  width: 460px;
+}
+
+.heading-section-2 p {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+  width: 564px;
+}
+
+/* card */
+.content-card {
+  margin-top: 50px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 25px;
+  gap: 20px;
+  background-color: #faf8f4;
+  border: 2px solid #e9e9e9;
+  border-radius: 10px;
+}
+
+/* title */
+.title {
+  display: flex;
+  align-content: center;
+  gap: 20px;
+}
+
+.icon-title {
+  background-color: #f3c89f;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.title h1 {
+  font-family: Plus Jakarta Sans;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  width: 219px;
+}
+
+/* Description */
+.content-card p {
+  font-family: Plus Jakarta Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #787878;
+
+  width: 320px;
+}
+
+/* learn more - arrow */
+.learn-more {
+  display: flex;
+  align-content: space-between;
+  /* background-color: red; */
+}
+
+.learn-more p {
+  color: #1a202c;
+  font-weight: 700;
+}
+
+.course-card {
+  display: flex;
+  gap: 20px;
 }
