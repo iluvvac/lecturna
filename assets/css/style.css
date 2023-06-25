@@ -44,6 +44,12 @@ nav img {
 
 .nav-link a {
   text-decoration: none;
+  color: #486284;
+}
+
+.active {
+  color: black;
+  font-weight: 1000;
 }
 
 .enroll-btn {
@@ -199,6 +205,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 50px;
 }
 
 .heading-section-2 {
@@ -207,6 +214,7 @@ nav a:hover {
   gap: 200px;
   /* align-content: space-around; */
   justify-content: space-between;
+  align-items: center;
 }
 
 .heading-section-2 h1 {
@@ -304,7 +312,7 @@ nav a:hover {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
 }
 
 /* Benfit Card */
@@ -326,9 +334,21 @@ nav a:hover {
 
 }
 
-.benefit-cards img {
+.benefit-cards1 img {
   padding: 15px;
   background-color: #faeb73;
+  border-radius: 10px;
+}
+
+.benefit-cards2 img {
+  padding: 15px;
+  background-color: #E0B7E0;
+  border-radius: 10px;
+}
+
+.benefit-cards3 img {
+  padding: 15px;
+  background-color: #88EBE5;
   border-radius: 10px;
 }
 
@@ -358,3 +378,91 @@ nav a:hover {
   width: 270px;
 }
 
+/* Section 4 */
+.section-4 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.content {
+  display: flex;
+  gap: 45.51px;
+}
+
+.content1 {
+  width: 382.99px;
+  height: 436.24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F2ED;
+  border-radius: 12.29px;
+  justify-content: center;
+  padding-left: 32px;
+}
+
+.parents-detail1 {
+  display: flex;
+  flex-direction: column;
+  font-family: Plus Jakarta Sans;
+  padding-top: 58px;
+  font-size: 15px;
+  gap: 10px;
+}
+
+.parents-detail2 {
+  display: flex;
+  flex-direction: column;
+  font-family: Plus Jakarta Sans;
+  padding-top: 132px;
+  font-size: 15px;
+  gap: 10px;
+}
+
+.parents-detail3 {
+  display: flex;
+  flex-direction: column;
+  font-family: Plus Jakarta Sans;
+  padding-top: 95px;
+  font-size: 15px;
+  gap: 10px;
+}
+
+.content img {
+  width: 76.8px;
+  height: 81.92px;
+}
+
+.content p {
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  font-size: 27.65px;
+}
+
+/* Section 5 */
+
+
+/* Section 6 */
+.section-6 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.top-content {
+  display: flex;
+  align-items: center;
+  gap: 660px;
+}
+
+.top-content h1 {
+  color: #9C9C9C;
+  font-size: 40px;
+}
+
+.section-6 text {
+  text-align: center;
+}
