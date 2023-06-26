@@ -13,13 +13,13 @@
         <img src="assets/image/Logo.png" alt="" />
         <div class="full-nav-links">
           <div class="nav-link">
-            <a href="" class="active">Home</a>
-            <a href="">Course</a>
-            <a href="">Benefit</a>
-            <a href="">Testimonial</a>
+            <a href="./index.html" class="active">Home</a>
+            <a href="#course-section">Course</a>
+            <a href="#benefit-section">Benefit</a>
+            <a href="#testimoni-section">Testimonial</a>
           </div>
           <div class="nav-button">
-            <button class="enroll-btn">Enroll Now</button>
+            <a href="#register-section" class="enroll-btn"> Enroll Now </a>
           </div>
         </div>
       </nav>
@@ -42,15 +42,15 @@
               Lecturna's Enriching Coding Education for Young Minds
             </p>
             <div class="button-main">
-              <button class="enroll-btn">Enroll Now</button>
-              <button class="free-btn">Try For Free</button>
+              <a href="#register-section" class="enroll-btn"> Enroll Now </a>
+              <a href="https://wa.me/6287887350892?text=Lecturna%20Keren%20Pak" class="free-btn"> Try for Free </a>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Section 2 -->
-      <section class="our-course">
+      <section class="our-course" id="course-section">
         <div class="heading-section-2">
           <h1>Explore Our Wide Range of Courses</h1>
           <p>
@@ -70,10 +70,10 @@
               <h1>Web Programming</h1>
             </div>
             <p>Master the art of creating dynamic and interactive websites</p>
-            <div class="learn-more">
+            <a class="learn-more" href="./course1_detail.html">
               <p>Learn more</p>
               <img src="assets/image/arrow.svg" alt="" />
-            </div>
+            </a>
           </div>
           <div class="content-card">
             <div class="title">
@@ -112,7 +112,7 @@
       </section>
 
       <!-- Section 3 -->
-      <section class="section-3">
+      <section class="section-3" id="benefit-section">
         <div class="heading-section-2">
           <h1>Unlock Your Potential with Our Courses</h1>
           <p>
@@ -156,7 +156,7 @@
       </section>
 
       <!-- Section 4 -->
-      <section class="section-4">
+      <section class="section-4" id="testimoni-section">
         <div class="heading-section-2">
           <h1> Hear What Our Students and parents Say </h1>
           <p>
@@ -213,14 +213,72 @@
       </section>
 
       <!-- Section 5 -->
-      <section class="section-5">
+      <section class="section-5" id="register-section">
+        <div class="section5-title">
+          <div class="line1"></div>
+          <h1> Registration Form </h1>
+          <div class="line2"></div>
+        </div>
 
+        <div class="section5-content">
+          <img src="assets/image/registration.png" alt="image">
+          <form class="registration-form">
+            <div class="form-group">
+              <div class="row1-form">
+                <div class="row1-group">
+                  <label for="name"> First Name </label>
+                  <input type="text" id="name" name="name" placeholder="Budi" required>
+                </div>
+                <div class="row1-group">
+                  <label for="name"> Last Name </label>
+                  <input type="text" id="name" name="name" placeholder="Yea" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="row1-form">
+                <div class="row1-group">
+                  <label for="name"> Email </label>
+                  <input type="email" id="email" name="email" placeholder="example@yea.com">
+                </div>
+                <div class="row1-group">
+                  <label for="name"> Phone Number </label>
+                  <input type="tel" id="phone" name="phone" placeholder="08xxxxxxx" required>
+                </div>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="course"> Select Course:</label>
+              <div class="course-options">
+                <label>
+                  <input type="radio" name="course" value="course1" required> Web Programming
+                </label>
+                <label>
+                  <input type="radio" name="course" value="course2" required> Mobile Programming
+                </label>
+                <label>
+                  <input type="radio" name="course" value="course3" required> Visual & Text Programming
+                </label>
+              </div>
+            </div>
+            
+            <div class="form-group" id="jadwal-container">
+              <label for="jadwal" class="schedule"> Select Your Schedule:</label>
+              <select id="jadwal" name="jadwal" required disabled>
+              </select>
+            </div>
+            
+            <a type="submit" class="submitBtn" href="https://wa.me/6287887350892?text=Lecturna%20Keren%20Pak"> Enroll Now </a>
+          </form>
+        </div>
       </section>
 
       <!-- Section 6 -->
       <section class="section-6">
         <div class="top-content">
-          <h1> Lecturna </h1>
+          <img src="assets/image/Logo.png" alt="" />
           <div class="nav-link">
             <a href="" class="active">Home</a>
             <a href="">Course</a>
@@ -231,5 +289,6 @@
         <text> Made By Abdullah Syafiq, Dastin Darmawan, Ghalih Yulio, Henry Arthur, and Owen Farida </text>
       </section>
     </div>
+    <script src="assets/js/form.js"></script>
   </body>
 </html>

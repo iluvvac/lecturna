@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -32,6 +36,7 @@ nav {
 nav img {
   width: 200.25px;
   height: 56.4px;
+  cursor: pointer;
 }
 
 .nav-link {
@@ -67,6 +72,7 @@ nav img {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
+  text-decoration: none;
 }
 
 .full-nav-links {
@@ -293,6 +299,7 @@ nav a:hover {
 .learn-more {
   display: flex;
   align-content: space-between;
+  text-decoration: none;
   /* background-color: red; */
 }
 
@@ -441,7 +448,114 @@ nav a:hover {
 }
 
 /* Section 5 */
+.section-5 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 
+.section5-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section5-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.section5-title h1 {
+  font-family: Fabada;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+
+.line1 {
+  width: 300px;
+  height: 2px;
+  background-color: black;
+}
+
+.line2 {
+  width: 300px;
+  height: 2px;
+  background-color: black;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 550;
+  font-size: 16px;
+}
+
+.form-group label {
+  display: block;
+}
+
+.row1-form {
+  display: flex;
+  gap: 20px;
+}
+
+.row1-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row1-form input {
+  width: 304px;
+  height: 48px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.course-options {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#jadwal-container {
+  display: none;
+}
+
+#jadwal-container label {
+  display: block;
+}
+
+#jadwal-container select {
+  width: 174px;
+  height: 48px;
+}
+
+.schedule {
+  padding-bottom: 20px;
+}
+
+.submitBtn {
+  width: 150px;
+  height: 53px;
+  background-color: #103EE0;
+  color: white;
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Plus Jakarta Sans;
+}
 
 /* Section 6 */
 .section-6 {
@@ -450,6 +564,10 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.section-6 img {
+  width: 200px;
 }
 
 .top-content {

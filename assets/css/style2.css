@@ -1,0 +1,516 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #faf8f4;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  /* background-color: red; */
+  width: 1240px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 100px; */
+}
+
+nav {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 200.25px;
+  height: 56.4px;
+  cursor: pointer;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 49px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #486284;
+}
+
+.enroll-btn {
+  background-color: #1d3b98;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 9px 21px;
+  gap: 10px;
+  border-radius: 4px;
+  border-color: transparent;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.full-nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+}
+
+nav a {
+  color: 486284;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+nav a:hover {
+  color: #1a202c;
+}
+
+.enroll-btn:hover {
+  background: #edb230;
+  color: black;
+}
+
+/* Section 1 */
+.section-1 {
+    margin-top: 177px;
+}
+
+.section1-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 122px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.opening {
+    color: #1D3B98;
+    font-weight: 600;
+}
+
+.left-content text {
+    font-size: 20px;
+}
+
+.left-content h1 {
+    font-family: Fabada;
+    font-size: 50px;
+}
+
+.button-main {
+    display: flex;
+    gap: 20px;
+}
+  
+.free-btn {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+  
+    border: 2px solid #103ee0;
+    border-radius: 4px;
+  
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+  
+.free-btn:hover {
+    background-color: #edb230;
+    border: 2px solid #edb230;
+}
+
+/* Section 2 */
+.section-2 {
+    margin-top: 161px;
+}
+
+.section2-content {
+    display: flex;
+    gap: 55px;
+}
+
+.section2-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.learn {
+    display: flex;
+    flex-direction: column;
+    gap: 18.55px;
+}
+
+.learn h1 {
+    font-size: 40.58px;
+}
+
+.learn text {
+    font-size: 23.19px;
+}
+
+.box-content {
+    display: flex;
+    padding: 61px 55px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 37.724px;
+    border-radius: 16.643px;
+    background: #FFF;
+    box-shadow: 0px 55.476863861083984px 66.57223510742188px 0px rgba(0, 0, 0, 0.10);
+}
+
+.box-opening {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.438px;
+}
+
+.number {
+    font-size: 21.08px;
+    font-weight: 800;
+}
+
+.box-opening h1 {
+    color: #1D3B98;
+    font-size: 35.95px;
+    font-weight: 800;
+}
+
+.box-opening text {
+    font-size: 17.75px;
+}
+
+.lessons {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.lesson1 text {
+    font-size: 17.75px;
+    color: #1D3B98;
+    font-weight: 500;
+}
+
+.content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 35.51px;
+}
+
+.list1 {
+    display: flex;
+    gap: 15px;
+}
+
+.list-number {
+    font-size: 19.97px;
+    color: #1D3B98;
+    font-weight: 700;
+}
+
+.list-name {
+    font-size: 19.972px;
+}
+
+.section2-right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.box-opening2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.438px;
+}
+
+.box-opening2 h1 {
+    color: #EDB230;
+    font-size: 35.95px;
+    font-weight: 800;
+}
+
+.list-number2 {
+    font-size: 19.97px;
+    color: #EDB230;
+    font-weight: 700;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.benefit-title {
+    font-size: 40.578px;
+}
+
+.benefit-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15.36px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 13.83px;
+}
+
+.icon {
+    width: 61.448px;
+    height: 61.448px;
+    display: flex;
+    padding: 23.043px;
+    align-items: flex-start;
+    gap: 15.362px;
+    border-radius: 15.362px;
+    background: #FAEB73;
+}
+
+.icon2 {
+    width: 61.448px;
+    height: 61.448px;
+    display: flex;
+    padding: 23.043px;
+    align-items: flex-start;
+    gap: 15.362px;
+    border-radius: 15.362px;
+    background: #E0B7E0;
+}
+
+.icon3 {
+    width: 61.448px;
+    height: 61.448px;
+    display: flex;
+    padding: 23.043px;
+    align-items: flex-start;
+    gap: 15.362px;
+    border-radius: 15.362px;
+    background: #88EBE5;
+}
+
+.section-3 {
+    margin-top: 100px;
+    display: inline-flex;
+    align-items: center;
+    gap: 73px;
+}
+
+.left-content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.title {
+    display: flex;
+    color: var(--blue-lecturna, #103EE0);
+    font-size: 40px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    gap: 10px;
+}
+
+.title1 {
+    color: var(--blue-lecturna, #103EE0);
+    font-size: 40px;
+    font-family: Fabada;
+}
+
+.title2 {
+    color: var(--blue-lecturna, #103EE0);
+    font-size: 40px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+}
+
+.left-content2 text {
+    color: var(--blue-lecturna, #103EE0);
+    font-size: 20px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+}
+
+/* Section 5 */
+.section-5 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .section5-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .section5-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .section5-title h1 {
+    font-family: Fabada;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+  }
+  
+  .line1 {
+    width: 300px;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .line2 {
+    width: 300px;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 550;
+    font-size: 16px;
+  }
+  
+  .form-group label {
+    display: block;
+  }
+  
+  .row1-form {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .row1-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row1-form input {
+    width: 304px;
+    height: 48px;
+    padding-left: 16px;
+    border-radius: 4px;
+    border-width: 1px;
+  }
+  
+  .course-options {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #jadwal-container {
+    display: none;
+  }
+  
+  #jadwal-container label {
+    display: block;
+  }
+  
+  #jadwal-container select {
+    width: 174px;
+    height: 48px;
+  }
+  
+  .schedule {
+    padding-bottom: 20px;
+  }
+  
+  .submitBtn {
+    width: 150px;
+    height: 53px;
+    background-color: #103EE0;
+    color: white;
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Plus Jakarta Sans;
+  }
+
+/* Section 6 */
+.section-6 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .section-6 img {
+    width: 200px;
+  }
+  
+  .top-content {
+    display: flex;
+    align-items: center;
+    gap: 660px;
+  }
+  
+  .top-content h1 {
+    color: #9C9C9C;
+    font-size: 40px;
+  }
+  
+  .section-6 text {
+    text-align: center;
+  }
