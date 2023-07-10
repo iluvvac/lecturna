@@ -545,6 +545,10 @@ nav a:hover {
 }
 
 .submitBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   width: 150px;
   height: 53px;
   background-color: #103EE0;
